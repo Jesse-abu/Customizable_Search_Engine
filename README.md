@@ -37,8 +37,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Customizations
 
-1. ![Project ScreenShot](assets/next_1.png)
+1. 
+![Project ScreenShot](assets/next_1.png)
 
-2. ![Project ScreenShot](assets/next_2.png)
+2. 
+![Project ScreenShot](assets/next_2.png)
 
-3. ![Project ScreenShot](assets/next_3.png)
+3. 
+![Project ScreenShot](assets/next_3.png)
