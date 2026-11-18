@@ -1,0 +1,22 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model WidgetLayout {
+  id        String   @id // e.g., "search-bar", "tabs", "results", "clock"
+  label     String
+  x         Int
+  y         Int
+  zIndex    Int      @default(1)
+  visible   Boolean  @default(true)
+  updatedAt DateTime @updatedAt
+}
